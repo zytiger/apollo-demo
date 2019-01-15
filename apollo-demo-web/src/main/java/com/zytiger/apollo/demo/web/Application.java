@@ -8,9 +8,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScans;
 
 /**
- * 交易服务入口
+ * 入口
  *
- * @author wujn
+ * @author zytiger
  * @version OrderController.java, v 0.1 2018-08-28 10:50
  */
 @SpringBootApplication
