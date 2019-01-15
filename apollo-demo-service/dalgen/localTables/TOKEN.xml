@@ -1,0 +1,21 @@
+<!DOCTYPE table SYSTEM "../config/table-config-1.0.dtd">
+    <table sqlname="TOKEN" physicalName="TOKEN"
+    remark="TOKEN">
+<!--    &lt;&gt;   <> -->
+<operation name="insert" paramtype="object" remark="insert:TOKEN">
+INSERT INTO TOKEN
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+        <if test="num != null">`NUM`,</if>
+        <if test="uid != null">`UID`,</if>
+        <if test="time != null">`TIME`,</if>
+        <if test="money != null">`MONEY`,</if>
+    </trim>
+VALUES
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+        <if test="num != null">#{num,jdbcType=VARCHAR},</if>
+        <if test="uid != null">#{uid,jdbcType=VARCHAR},</if>
+        <if test="time != null">#{time,jdbcType=VARCHAR},</if>
+        <if test="money != null">#{money,jdbcType=VARCHAR},</if>
+    </trim>
+    </operation>
+    </table>

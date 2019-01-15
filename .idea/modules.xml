@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apollo-demo.iml" filepath="$PROJECT_DIR$/apollo-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-demo-common/apollo-demo-common.iml" filepath="$PROJECT_DIR$/apollo-demo-common/apollo-demo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-demo-service/apollo-demo-service.iml" filepath="$PROJECT_DIR$/apollo-demo-service/apollo-demo-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo-demo-web/apollo-demo-web.iml" filepath="$PROJECT_DIR$/apollo-demo-web/apollo-demo-web.iml" />
+    </modules>
+  </component>
+</project>
